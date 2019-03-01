@@ -19,10 +19,9 @@ Instructions for using:
 - Have fun!
 
 Known issues (working on it):
-- Every now and then when loading the page a problem occurs with the axios library
-- For example markers won't load, saving edits won't take effect or saving marker fails
-- I think the root of this problem is in axios itself rather than my code (hopefully), working on a solution for this one
-- As a user you can just reload the page which'll get it going again
+- Every now and then when loading the page a problem occurs with the axios library, which causes that markers won't load, saving edits won't take effect or saving marker fails, can't add own markers
+ - I think the root of this problem is in axios itself rather than my code (hopefully), working on a solution for this one
+- As a user you can just reload the page which'll get it going again!
 - Editing and saving a marker place requires a page reload to take effect
 - There's a built-in function that realoads the page when the actions are made, but it slightly disrupts the flow of using the app
 - Had some issues attaching static build of frontend to backend, which led me to do some refactoring I'm not fully satisfied, working on beautifying the code later on
