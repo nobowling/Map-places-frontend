@@ -1,0 +1,29 @@
+{
+  "name": "mapplaces-frontend-xml",
+  "version": "1.0.0",
+  "description": "Map places frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "node index.php"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nobowling/Google-Maps-API-Project-Frontend.git"
+  },
+  "author": "Jani Leppäkoski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nobowling/Google-Maps-API-Project-Frontend/issues"
+  },
+  "homepage": "https://github.com/nobowling/Google-Maps-API-Project-Frontend#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
