@@ -25,6 +25,7 @@ Known issues (working on it):
 - Editing and saving a marker place requires a page reload to take effect
 - There's a built-in function that realoads the page when the actions are made, but it slightly disrupts the flow of using the app
 - Had some issues attaching static build of frontend to backend, which led me to do some refactoring I'm not fully satisfied, working on beautifying the code later on
+- When adding/removing marker to and from favorites, page needs to be reloaded in order to make it work with the favorite filter
 
 Developers notes:
 
